@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  'poppins', 'Cinzel';
+  scroll-behavior: smooth;
+}
+
+html {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+}
+
+.App {
+  width: 100%;
+  height: auto;
+  scroll-behavior: smooth;
+  position: relative;
+
+}
+
+
+.info {
+  position: fixed;
+  top: 140px;
+  right: 10px;
+  border-radius: 8px;
+  padding: 10px 5px;
+  z-index: 9999999999999999;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #fff;
+  font-weight: bold;
+  color: #A6127C;
+}
+
+h4 {
+  text-align: center;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  cursor: pointer;
+  z-index: 5;
+  background-color: red;
+}
+
+.color{
+  font-weight: bold;
+  color: #A6127C;
+}
+
+.color2{
+  color: #000;
+}
+.color3{
+  font-weight: bold;
+  color: #7834CD;
+}
+.testeSpan{
+  display: flex;
+  align-items: center;
+}
+/*============== SCROLL CUSTOM ===============*/
+::-webkit-scrollbar {
+  width: 9px;
+  height: 100px;
+  background: linear-gradient(45deg, #243944, #fff);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #A6127C;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #243944, #fff);
+  transition: 0.2s;
+}
